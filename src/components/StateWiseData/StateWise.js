@@ -15,9 +15,9 @@ const StateWise = () => {
     }, []);
 
     return (
-        <div className="container-fluid mt-5">
+        <div>
             <div className="main-heading">
-                <h1 className="mb-5 text-center">Corona Tracker <span className="font-weight-bold">India</span></h1>
+                <h1 className="mb-5 text-center">Statewise <span className="font-weight-bold">Listview</span></h1>
             </div>
             <div className="table-responsive">
                 <table className="table table-hover">
@@ -49,7 +49,6 @@ const StateWise = () => {
                         
                     </tbody>
                 </table>
-
             </div>
         </div>
     )

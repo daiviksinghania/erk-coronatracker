@@ -1,9 +1,15 @@
+import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import StateWise from './components/StateWiseData/StateWise';
+import { Navbar } from './components/Navbar';
+import { Routes } from './routes';
+
 
 function App() {
   return (
-    <StateWise></StateWise>
+    <div className="container">
+      <Navbar></Navbar>
+      <Routes />
+    </div>
   );
 }
 
